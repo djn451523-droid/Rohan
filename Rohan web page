@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #006064;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            color: #004d40;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>স্বাগতম</h1>
+    <p>Mr Roktim Hasan</p>
+
+    <!-- Contact Button -->
+    <a class="button" href="tel:01312980111">Contact</a>
+
+    <!-- Tutorial Button -->
+    <a class="button" href="https://youtube.com/@mr.roktimhasan?si=jw-rLOkIox4jbGPO" target="_blank">Tutorial</a>
+
+    <!-- Notification (mailto) Button -->
+    <a class="button" href="mailto:mrroktimhasan56@gmail.com?subject=Notification%20from%20Website&body=Hello,%20I%20clicked%20the%20notification%20button.">Notify Me</a>
+
+</body>
+</html>
